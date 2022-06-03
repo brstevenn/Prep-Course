@@ -1,0 +1,13 @@
+git clone url-de-lrepo-de-github <-- Para clonar repos de GitHub
+
+Ctrl + ñ <-- abrir consola
+
+git status <-- para ver qué archivos se modificaron del repo (verde es que se guardo la modificacion, rojo es que se modifico y aun no se guarda)
+
+git add nombre-del-archivo-obtenido-en-status <-- para modificar el archivo del repo
+
+git commit -m 'mensaje cualquiera' <-- para confirmar la modificacion
+
+git push <-- pide iniciar secion y es para guardar la modificacion en el repo de GitHub
+
+Asi se guardan cosas en los repos de GitHub, es un inicio
