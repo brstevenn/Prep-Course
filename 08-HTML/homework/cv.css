@@ -1,0 +1,117 @@
+html {
+    background-color: #d9ef9f;
+}
+
+.Presentacion {
+    display: flex;
+    margin: 10px;
+}
+
+.texto {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.img {
+    display: flex;
+    margin: 5px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.box {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+}
+
+
+.cajones {
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+}
+
+
+.Titulos {
+    background-color: #96ac60;
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.texto {
+    background-color: #96ac60;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    margin: 10px;
+    background-color: #586e26;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.TituloDos {
+    background-color: #586e26;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p {
+    background-color: #96ac60;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
