@@ -1,7 +1,5 @@
 // No cambies los nombres de las funciones.
 
-const { prototype } = require("node-telegram-bot-api")
-
 function crearUsuario() {
   // Crea una Clase de ES6 o una función constructor llamada "Usuario"
   // Debe aceptar un objeto "opciones" con las propiedades "usuario", "nombre", "email" y "password"
@@ -52,7 +50,7 @@ function agregarStringInvertida() {
 //Crea el constructor de la clase "Persona"
 //Debe tener las propiedades: "nombre", "apellido", "edad" y "domicilio"
 //Debe tener un método llamado "detalle" que nos devuelve un objeto con las propiedades de la persona y sus valores.
-//Ej: { 
+//Ej: {
 //   Nombre: 'Juan',
 //   Apellido: 'Perez',
 //   Edad: 22,
@@ -86,7 +84,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
 }
 
 function agregarMetodo() {
-  //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
+  //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve:
   //Ej: "Juan, 22 años"
   Persona.prototype.datos = function () {
     return (this.nombre + ', ' + this.edad + ' años')
